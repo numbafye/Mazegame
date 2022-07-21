@@ -1,0 +1,19 @@
+.menu {
+    text-align: center;
+}
+
+.maze {
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+margin: 2vw 10vh;
+border: solid brown 25em;
+}
+
+/* .cell {
+
+} */
+
+@media screen and (min-width: 900px) {
+
+}
