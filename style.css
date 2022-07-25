@@ -1,19 +1,40 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1602298674761-700e96568f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFpbmZvcmVzdHxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1 {
+  color: white;
+}
+
 .menu {
-    text-align: center;
+  text-align: center;
+}
+
+#mazectx {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin: 2vw 15vh;
+  border: solid rgba(9, 78, 9, 0.5) 20em;
 }
 
 .maze {
-display: grid;
-grid-template-columns: auto;
-grid-template-rows: auto;
-margin: 2vw 10vh;
-border: solid brown 25em;
+
 }
+
+
 
 /* .cell {
 
 } */
 
-@media screen and (min-width: 900px) {
+.character {
 
+}
+
+
+@media screen and (min-width: 700px) {
 }
