@@ -5,36 +5,88 @@ body {
   background-size: 100% 100%;
 }
 
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
 h1 {
   color: white;
 }
 
-.menu {
+/* .menu {
   text-align: center;
-}
-
-#mazectx {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  margin: 2vw 15vh;
-  border: solid rgba(9, 78, 9, 0.5) 20em;
-}
-
-.maze {
-
-}
-
-
-
-/* .cell {
-
+  transform: translate(0px, 20em);
 } */
 
-.character {
-
+#mazectx {
+  /* background-image: maybe */
+  height: 9em;
+  display: grid;
+  margin: 2vw 5vh;
+  border: ridge;
+  padding: 20em;
+  background-color: rgba(0, 0, 0, 0.781);
 }
 
+.maze > * {
+  height: 0.5em;
+}
 
-@media screen and (min-width: 700px) {
+.cell {
+  background-color: white;
+  position: static;
+  transform: translate(-20.1em, -15em);
+}
+
+.cell2 {
+  background-color: blue;
+  position: static;
+  transform: translate(10em, -5em);
+}
+
+.cell3 {
+  background-color: purple;
+  position: static;
+  transform: translate(10em, -15em);
+}
+
+.cell4 {
+  background-color: red;
+  position: static;
+  transform: translate(10em, 5em);
+}
+
+.cell5 {
+  background-color: white;
+  position: static;
+  transform: translate(10em);
+}
+
+.cell6 {
+  background-color: peru;
+  position: static;
+  transform: translate(10em, 10em);
+}
+
+.cell7 {
+  background-color: yellow;
+  position: static;
+  transform: translate(7em);
+}
+
+.cell8 {
+  background-color: orange;
+  position: static;
+  transform: translate(15em);
+}
+
+.cell9 {
+  background-color: brown;
+  position: static;
+  transform: translate(5em);
+}
+
+.character {
 }
