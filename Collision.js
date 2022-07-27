@@ -1,6 +1,3 @@
-
-
-
 // collision code BELOW
 // function detectCollision(player, obstacle) {
 //   return !(

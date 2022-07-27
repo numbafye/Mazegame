@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
   </head>
   <div id="wrapper">
     <!-- ID to keep cells from moving -->
@@ -13,8 +18,8 @@
       <!-- Buttons that will disappear when play is hit -->
       <div class="menu">
         <h1>Trouble In Paradise!</h1>
-        <button class="playbtn">PLAY</button>
-        <button class="btn">RULES</button>
+        <button type="button" class="btn btn-dark">PLAY</button>
+        <button type="button" class="btn btn-dark">RULES</button>
       </div>
       <!-- maze layout1 -->
       <div id="mazectx" class="maze">
@@ -28,11 +33,10 @@
         <div class="cell8">&nbsp</div>
         <div class="cell9">&nbsp</div>
       </div>
-      <img
-        id="character"
-        src="https://i.postimg.cc/hPDVHcZf/adventurer.png"
-        alt="jungle jones>"
-      />
+
+      <script src="./character.js"></script>
+      <script src="./moveCharacter.js"></script>
+      <script src="./Collision.js"></script>
     </body>
   </div>
 </html>

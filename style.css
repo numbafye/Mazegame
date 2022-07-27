@@ -15,13 +15,14 @@ h1 {
   color: white;
 }
 
-/* .menu {
+.menu {
   text-align: center;
-  transform: translate(0px, 20em);
-} */
+  
+}
 
 #mazectx {
   /* background-image: maybe */
+  
   height: 9em;
   display: grid;
   margin: 2vw 5vh;
@@ -88,5 +89,6 @@ h1 {
   transform: translate(5em);
 }
 
-.character {
+img {
+  transform: translate(2em, -36em);
 }
