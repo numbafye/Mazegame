@@ -1,8 +1,6 @@
-window.addEventListener("mousemove", (e) => {
-  let collision = e.target.classList.value;
-  detectCollision(collision);
-});
-
-const detectCollision = (value) => {
-  if (value === "mazeborder") alert("YOU FOUND TROUBLE!");
-};
+// mazes
+const levelOne = document.querySelector(".lvlOne");
+const levelTwo = document.querySelector(".lvlTwo");
+// buttons
+const Win = document.querySelector(".winbtn");
+const Startgame = document.querySelector(".btn-dark");

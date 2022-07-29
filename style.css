@@ -13,24 +13,37 @@ body {
 
 h1 {
   color: white;
+  
 }
 
 .menu {
   text-align: center;
+  padding: 2rem;
 }
 
-#mazectx {
-  /* background-image: maybe */
-
-  height: 9em;
-  display: grid;
-  margin: 2vw 5vh;
-  border: ridge;
-  padding: 20em;
-  background-color: rgba(0, 0, 0, 0.781);
+.winbtn {
+  margin: 1rem;
+  background-color: green;
+  color: white;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5 ease;
 }
 
 .maze > * {
   height: 0.5em;
 }
 
+#mazeplace {
+  padding: 0.5rem;
+  border: ridge;
+  background-color: rgba(0, 0, 0, 0.781);
+}
+
+
+.lvlTwo {
+  display: none;
+}
