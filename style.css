@@ -17,12 +17,11 @@ h1 {
 
 .menu {
   text-align: center;
-  
 }
 
 #mazectx {
   /* background-image: maybe */
-  
+
   height: 9em;
   display: grid;
   margin: 2vw 5vh;
@@ -35,60 +34,3 @@ h1 {
   height: 0.5em;
 }
 
-.cell {
-  background-color: white;
-  position: static;
-  transform: translate(-20.1em, -15em);
-}
-
-.cell2 {
-  background-color: white;
-  position: static;
-  transform: translate(10em, -5em);
-}
-
-.cell3 {
-  background-color: purple;
-  position: static;
-  transform: translate(10em, -15em);
-}
-
-.cell4 {
-  background-color: red;
-  position: static;
-  transform: translate(10em, 5em);
-}
-
-.cell5 {
-  background-color: blue;
-  position: static;
-  transform: translate(10em);
-}
-
-.cell6 {
-  background-color: peru;
-  position: static;
-  transform: translate(10em, 10em);
-}
-
-.cell7 {
-  background-color: yellow;
-  position: static;
-  transform: translate(7em);
-}
-
-.cell8 {
-  background-color: orange;
-  position: static;
-  transform: translate(15em);
-}
-
-.cell9 {
-  background-color: brown;
-  position: static;
-  transform: translate(5em);
-}
-
-img {
-  transform: translate(2em, -36em);
-}
