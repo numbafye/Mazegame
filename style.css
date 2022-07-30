@@ -1,10 +1,11 @@
+/* jungle background */
 body {
   background-image: url("https://media.istockphoto.com/photos/fern-background-picture-id682374404?b=1&k=20&m=682374404&s=170667a&w=0&h=J3Rqcf6D8UNe6Bohi0E24BwH5uPtjAJZ5qntmRqr9Js=");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-
+/* this holds everything in the middle of the browser */
 #wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -21,6 +22,7 @@ h1 {
     0px -2px black, -2px 2px black, -2px 0px black, -2px -2px black;
 }
 
+/* you won text */
 h2 {
   width: 200px;
   margin: 0;
