@@ -1,9 +1,3 @@
-// tracks mouse movement
-window.addEventListener("mousemove", (e) => {
-  let collision = e.target.classList.value;
-  detectCollision = collision;
-});
-
 // mazes
 const levelOne = document.querySelector(".lvlOne");
 const levelTwo = document.querySelector(".lvlTwo");
