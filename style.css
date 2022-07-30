@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://images.unsplash.com/photo-1602298674761-700e96568f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFpbmZvcmVzdHxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-image: url("https://media.istockphoto.com/photos/fern-background-picture-id682374404?b=1&k=20&m=682374404&s=170667a&w=0&h=J3Rqcf6D8UNe6Bohi0E24BwH5uPtjAJZ5qntmRqr9Js=");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -9,23 +9,52 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
+  transform: translate(0 , -4rem);
 }
 
 h1 {
-  color: white;
-  
+  color: yellow; 
+  text-align: center;
+  padding: 0rem;
+  margin: 0em;
+  text-shadow: 2px 2px black, 2px 0px black, 2px -2px black, 0px 2px black,
+    0px -2px black, -2px 2px black, -2px 0px black, -2px -2px black;
+}
+
+h2 {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  transform: scale(5) translate(5rem, 3rem);
+  text-align: center;
+  color: green;
+  text-shadow: 2px 2px black, 2px 0px black, 2px -2px black, 0px 2px black,
+    0px -2px black, -2px 2px black, -2px 0px black, -2px -2px black;
+  display: none;
 }
 
 .menu {
   text-align: center;
   padding: 2rem;
+  margin: 2em;
+  transform: translate(0rem, 3rem);
+  font-size: 1rem;
+}
+
+p {
+  text-shadow: 2px 2px black, 2px 0px black, 2px -2px black, 0px 2px black,
+    0px -2px black, -2px 2px black, -2px 0px black, -2px -2px black;
+    color: yellow;
+}
+
+#playbtn {
+  color: red;
 }
 
 .winbtn {
   margin: 1rem;
   background-color: green;
   color: white;
-  border: none;
   text-align: center;
   cursor: pointer;
   opacity: 0;
@@ -42,8 +71,11 @@ h1 {
   border: ridge;
   background-color: rgba(0, 0, 0, 0.781);
 }
-
+.lvlOne {
+  display: none;
+}
 
 .lvlTwo {
   display: none;
 }
+
