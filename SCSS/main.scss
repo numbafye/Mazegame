@@ -1,0 +1,15 @@
+// Styling specific to the maze elements
+.maze>* {
+    height: 0.5em;
+}
+
+#mazeplace {
+    padding: 2rem 0.5rem;
+    border: $border-style;
+    background-color: $background-color;
+}
+
+.lvlOne,
+.lvlTwo {
+    display: none;
+}

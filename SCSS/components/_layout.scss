@@ -1,0 +1,15 @@
+#wrapper {
+    @include responsive-width($wrapper-width);
+
+    .menu {
+        @include flex-center;
+        font-size: dynamic-scale(1); // Using function
+        padding: calculate-padding($padding-large, 1);
+
+        &::after {
+            content: 'Enhanced menu';
+            display: block;
+            padding-top: $padding-large;
+        }
+    }
+}

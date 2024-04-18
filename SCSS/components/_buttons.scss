@@ -1,0 +1,30 @@
+#playbtn {
+    color: red;
+
+    &:hover {
+        @if $opacity-visible >0.5 {
+            opacity: $btn-hover-opacity;
+        }
+
+        @else {
+            @warn "Low visibility on hover might affect UX.";
+        }
+    }
+}
+
+.winbtn {
+    @include button-base;
+    background-color: $accent-color;
+    color: white;
+    display: none;
+}
+
+@mixin button-base {
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+
+    &:hover {
+        opacity: $btn-hover-opacity;
+    }
+}
