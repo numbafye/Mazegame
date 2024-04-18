@@ -10,11 +10,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  transform: translate(0 , -4rem);
+  transform: translate(0, -4rem);
 }
 
 h1 {
-  color: yellow; 
+  color: yellow;
   text-align: center;
   padding: 0rem;
   margin: 0em;
@@ -41,12 +41,13 @@ h2 {
   margin: 2em;
   transform: translate(0rem, 3rem);
   font-size: 1rem;
+  padding-bottom: 5em;
 }
 
 p {
   text-shadow: 2px 2px black, 2px 0px black, 2px -2px black, 0px 2px black,
     0px -2px black, -2px 2px black, -2px 0px black, -2px -2px black;
-    color: yellow;
+  color: yellow;
 }
 
 #playbtn {
@@ -69,10 +70,12 @@ p {
 }
 
 #mazeplace {
-  padding: 0.5rem;
+  padding: 2rem 0.5rem 2em 0.5em;
   border: ridge;
   background-color: rgba(0, 0, 0, 0.781);
 }
+
+/* CHANGES SIZE OF MAZE */
 .lvlOne {
   display: none;
 }
@@ -80,4 +83,3 @@ p {
 .lvlTwo {
   display: none;
 }
-

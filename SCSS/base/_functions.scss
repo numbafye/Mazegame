@@ -1,0 +1,15 @@
+@function calculate-padding($base, $multiplier) {
+    @return $base * $multiplier;
+}
+
+@function dynamic-scale($scale-factor) {
+    @return $scale-factor * 1rem;
+}
+
+@function check-color($color) {
+    @if type-of($color) !='color' {
+        @error "Specified value of `#{ $color }` is not a color.";
+    }
+
+    @return $color;
+}
