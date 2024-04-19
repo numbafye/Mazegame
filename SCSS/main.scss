@@ -1,15 +1,11 @@
-// Styling specific to the maze elements
-.maze>* {
-    height: 0.5em;
-}
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/functions';
+@import 'components/buttons';
+@import 'components/layout';
+@import 'components/typography';
+@import 'components/maze';
 
-#mazeplace {
-    padding: 2rem 0.5rem;
-    border: $border-style;
-    background-color: $background-color;
-}
-
-.lvlOne,
-.lvlTwo {
-    display: none;
+body {
+    @include background-image-setup("https://media.istockphoto.com/photos/fern-background-picture-id682374404?b=1&k=20&m=682374404&s=170667a&w=0&h=J3Rqcf6D8UNe6Bohi0E24BwH5uPtjAJZ5qntmRqr9Js=");
 }
